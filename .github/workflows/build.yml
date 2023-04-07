@@ -8,6 +8,8 @@ on:
       - 'examples/**'
     tags:
       - '*'
+  workflow_dispatch:
+    
 jobs:
   build-and-testvariants:
     name: Build image variants and run tests
